@@ -40,7 +40,6 @@ html, body {
 .blurbs {
 	float: left;
 	width: 50%;
-	vertical-align: middle;
 }
 
 .photo-circle img {
@@ -48,6 +47,7 @@ html, body {
 	width: 50%;
 	height: auto;
 	float: left;
+	padding-top: 20px;
 }
 
 .container {
@@ -66,3 +66,12 @@ html, body {
 	padding: 20px 20px;
 	box-sizing: border-box;
 }
+
+/*@media screen and (min-width: 1230px) {
+	.photo-circle img {
+		width: 574px;
+		height: 599px;
+		padding: 20px 20px 0 20px;
+		box-sizing: border-box;
+	}
+}*/
