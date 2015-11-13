@@ -37,14 +37,17 @@ html, body {
 }
 
 
-.photo-circle, .blurbs {
+.blurbs {
 	float: left;
 	width: 50%;
+	vertical-align: middle;
 }
 
 .photo-circle img {
 	display: block;
-	width: 100%;
+	width: 50%;
+	height: auto;
+	float: left;
 }
 
 .container {
